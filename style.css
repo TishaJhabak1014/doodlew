@@ -6,13 +6,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4A98F7;
+  background: #fcf0a9;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="%23ffb6c1"><path d="M12 20s-2-1.5-2-3.5c0-1.1.9-2 2-2s2 .9 2 2c0 2-2 3.5-2 3.5zm-1-6c.5 0 1-.4 1-1s-.5-1-1-1-1 .4-1 1 .4 1 1 1zm2 0c.5 0 1-.4 1-1s-.5-1-1-1-1 .4-1 1 .4 1 1 1zm0 0"></path></svg>');
 }
+
 .container{
   display: flex;
   width: 100%;
@@ -56,6 +59,10 @@ section{
   cursor: pointer;
   height: 14px;
   width: 14px;
+}
+.title{
+  color: rgb(205, 125, 50);
+  font-weight: bolder;
 }
 #fill-color:checked ~ label{
   color: #4A98F7;
@@ -133,7 +140,7 @@ section{
   background: #6C757D;
 }
 .buttons .save-img{
-  background: #4A98F7;
+  background: #055bc4;
   border: 1px solid #4A98F7;
 }
 .drawing-board{

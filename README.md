@@ -1,4 +1,4 @@
-# doodlew
+# doodlew 🎈
 A user-friendly drawing app for quick sketches and doodles. Simple, intuitive, and perfect for unleashing your creativity! A simple drawing app built with HTML5 canvas and vanilla JavaScript. Users can easily create shapes such as rectangles, circles, and triangles in their preferred colors. The app also offers functionalities to erase drawings and download them as images.
 
 #### Features:
